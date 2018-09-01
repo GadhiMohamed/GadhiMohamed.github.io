@@ -167,6 +167,11 @@ p+h3 {
 }
 
 
+.contact-info a {
+    color: rgb(51, 200, 211);
+}
+
+
 /* Media Queries
 ---------------------------------------------*/
 
@@ -181,6 +186,7 @@ p+h3 {
         /* border: 2px solid black; */
         float: left;
         padding-left: 20px;
+        text-align: center;
     }
 }
 
