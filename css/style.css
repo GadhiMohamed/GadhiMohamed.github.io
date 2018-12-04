@@ -16,14 +16,20 @@ html {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 0;
+    background-color: #FEFEFE;
+}
+
+i {
+    text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 h1,
 h2 {
     font-family: 'Caveat', cursive;
     font-weight: 400;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 h1 {
@@ -41,11 +47,15 @@ h3 {
 
 a {
     color: red;
+    transition: all .2s;
 }
 
 a:hover {
     text-decoration: none;
     color: white;
+    background-color: #e74c3c;
+    transform: translateY(2px) scale(1.1);
+    text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .content-wrap {
@@ -87,6 +97,7 @@ header {
 
 .profile-img {
     border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .download {
